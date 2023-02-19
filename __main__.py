@@ -32,4 +32,5 @@ if __name__ == '__main__':
     df['comment'] = np.where(df.inat_common_name == df.ref_common_name, "Matched", 
                     np.where(df.inat_common_name.isnull(), "Missed common name on iNat", 
                     np.where(df.ref_common_name.isnull(), "Species not included in reference", "Inconsistent common name")))
+    df = df.sort_values(by=['scientific_name'])    
     df.to_csv(args.output_path, index=False)
