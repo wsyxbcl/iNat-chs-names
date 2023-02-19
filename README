@@ -1,0 +1,12 @@
+To provide guidance for adding/editing Chinese common names on iNaturalist.
+
+Currently, the repo covers only the species observed in mainland China on iNaturalist.
+It is based on observation data exported from iNat, and will be updated once a year.
+
+(To completely match the names we need a taxon-based export tool from iNat)
+Mismatched names can also be results of taxonomic diffrences, which is also not considered.
+
+Note that this is going to be a batch automation program, 
+curators still need to manually check and patch the names.
+(Being a lazy guy, I only focus on those I encounter.)
+
